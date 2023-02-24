@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+	
+	
+	float cotacao_dolar, qtd_dolar, qtd_reais;
+	
+	printf("Digite o preço do dolar R$");
+	scanf("%f",&cotacao_dolar);
+	
+	printf("digite o valor em dolares");
+	scanf("%f",&qtd_dolar);
+
+	qtd_reais = qtd_dolar*cotacao_dolar;
+	
+	printf("O valor em R$ e equivalente a: R$ %.2f",qtd_reais);
+	
+	
+	printf("\n\n");
+	system("pause");
+	
+
+}
